@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+header {
+  padding: 0.5rem;
+  border-bottom: solid 0.1rem black;
+  background-color: #1e3050;
+  color: lightgray;
+}
+
+.nav1 span {
+  font-size: 1.75rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#appVersion {
+  font-size: 1.25rem;
+}
+
+.nav1 img {
+  float: right;
+  margin-right: 1%;
+  width: 1.5rem;
+}
+
+.nav2 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: right;
+  font-size: 1.25rem;
+}
+
+.nav2 span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: lightgray;
+}
+
+main {
+  margin: 2%;
+}
+
+main h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tools_tiles {
+    display: block;
+    background-color: rgb(228, 226, 224);
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-left: 10%;
+    border-radius: 0.5rem;
+    border-bottom: 0.1rem solid darkslategrey;
+    border-right: 0.1rem solid darkslategrey;
+    width: 80%;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: helvetica;
+}
